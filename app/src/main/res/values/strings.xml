@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day16</string>
+    <string name="enter_your_mail_address">Enter your mail address</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_your_unique_user_id">       Enter your unique user ID</string>
+</resources>

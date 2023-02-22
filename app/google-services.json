@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817609547553",
+    "project_id": "data-base-lecture-13a93",
+    "storage_bucket": "data-base-lecture-13a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817609547553:android:d164e77b3e6fdf3b1fa860",
+        "android_client_info": {
+          "package_name": "com.example.day16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817609547553-t90tl3bs42u8iduptibcbhksd52me8dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIHFrLtqOJOM36ql-oYiEZWz4OxDQHtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817609547553-t90tl3bs42u8iduptibcbhksd52me8dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/signup"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/custom_text"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/yellow"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SignUp"
+                android:textColor="#ffffff"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:backgroundTint="#DEDEDE"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_text"
+                android:textColorHint="@color/black"
+                android:drawablePadding="8dp"
+                android:hint="      Enter your Name"
+                android:padding="8dp"
+                android:textSize="21sp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#E0D8DF"
+                android:background="@drawable/custom_text"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                android:textSize="21sp"
+                android:inputType="textEmailAddress"
+                android:hint="       Enter your Email Address"
+                android:padding="8dp"
+                android:textColorHighlight="@color/cardview_dark_background"
+                app:endIconMode="password_toggle" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="#E0D8DF"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="21sp"
+                android:background="@drawable/custom_text"
+                android:drawablePadding="8dp"
+                android:hint="       Enter your Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                />
+
+            <EditText
+                android:id="@+id/uniqueId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_text"
+                android:textColorHint="#1F1A1A"
+                android:backgroundTint="#E0D8DF"
+                android:drawablePadding="8dp"
+                android:hint="       Enter your Unique Id"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/signButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#656359"
+                android:textColor="@color/white"
+                android:text="@string/sign_up"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:text="You are already a User,  "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
